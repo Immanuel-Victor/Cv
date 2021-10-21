@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 html{
-    background-image: url('/images/Montanhas.jpg');
     font-family: 'Bebas Neue', cursive;
     scroll-behavior: smooth;
     text-align: center;
