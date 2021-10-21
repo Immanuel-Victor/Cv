@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html{
+    background-image: url('images/Montanhas.jpg');
+    font-family: 'Bebas Neue', cursive;
+    scroll-behavior: smooth;
+    text-align: center;
+    height:100%;
+}
+
+::-webkit-scrollbar{
+    width: 7.5px;
+}
+
+::-webkit-scrollbar-track{
+    display:none;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 2px;
+    background-color:#6b7e85;
+}
+
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #082833;
+}
+
+body{
+    overflow: overlay;
+    margin: 0px;
+    background-image: url(/PersonalWebStyle/images/Montanha-1.jpg);
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+    font-size:  20px;
+    word-spacing: 0.1em;
+}
+
+li + li{
+    margin-right: 30px;
+}
+
+a{
+    color: #2b3336;
+    text-decoration: none;
+}
+
+header{
+    background-color: transparent;
+    padding: 20px 0px;
+}
+
+footer{
+    padding: 20px 0px;
+}
+
+.nav_links{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+}
+
+nav ul{
+    padding: 0px;
+}
+
+nav .nav_links li {
+    display:inline-block;
+    padding: opx 120px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+a:hover{
+    color: #001922;
+}
+
+
+
+section{
+    height: 100vh;
+    margin: 0px;
+}
+
+#logoImage{
+    width:200px;
+    height:200px;
+}
+
+#welcoming{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#welcoming h2 + p{
+    margin-left: -5px;
+}
+
+
+#myInfo{
+    text-align: justify;
+    width: 600px;
+}
+
+#myInfo h2{
+    text-align: center;
+}
+#myInfo h2 + p{
+    text-align: center;
+}
+
+h1, h2,h3,h4,h5,h6{
+    font-style: none;
+    font-weight: normal;
+}
+
+#aboutMe{
+    font-size: 115%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#WandF{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#WandF div{
+
+    margin: 20px;
+}
+
+
+
+#forInfos ul > li{
+    text-align: justify;
+}
+
+#skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#skills h2{
+    text-align: center;
+}
+
+.skillcontent{
+    margin-left: 25px;
+}
+
+#sInfo, #hInfo{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+#forInfos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#projects{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contactInfo{
+  color: #7f9fb3;
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-around;
+  align-items: center;
+}
+
+#contactInfo li+li{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+#contactInfo a{
+    color: #7f9fb3;
+}
+
+#contactInfo a:hover{
+    color: #c3d8e6;
+}
+
+#adress{
+    font-style: italic;
+}
+
+
+nav .footer_links li{
+    display: inline-block;
+}
+
+.embedthing{
+    height: 400px;
+    width:500px;
+}
