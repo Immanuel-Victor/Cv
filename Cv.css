@@ -220,6 +220,16 @@ nav .footer_links li{
     display: inline-block;
 }
 
+.footer_links{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.footer_links li{
+    padding: opx 120px;
+}
+
 .embedthing{
     height: 400px;
     width:500px;
